@@ -30,3 +30,7 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 # puts bitcoin_data
+
+bitcoin_value = bitcoin_data["bpi"]["USD"]["rate_float"]
+
+puts "Total $#{bitcoin_value*bitcoin}"
