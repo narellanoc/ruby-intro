@@ -15,3 +15,27 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# mine_list = ["milk","eggs","bacon"]
+# friend_list = ["beer","cookies","apples"]
+
+# together = mine_list.concat(friend_list)
+
+# puts together.sort
+
+brian_list = ["beer","bacon","tacos","milk"]
+ben_list = ["beer","beyond tacos","sticks","kale"]
+
+shared_list = brian_list + ben_list
+
+sorted_list = shared_list.sort
+
+puts sorted_list
+
+uniq_list = sorted_list.uniq
+
+puts uniq_list
+
+#puts (brian_list + ben_list).sort.uniq
+
+
